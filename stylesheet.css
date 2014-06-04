@@ -5,33 +5,33 @@ body {
 
 .student {
 	display: inline-block;
+	margin-top: 37px;
 	margin-left: 5px;
 	height: 200px;
-	width: 150px;
+	width: 150px;	
 	border-radius: 10%;
-	border: 3px solid #cc0000;
+	border: 3px solid #000000;
+	
+	color: white;
 	text-align: center;
 	vertical-align: middle;
-	background-color: #DDDDDD;
-	color: white;
 	font-size: 24px;
 	font-family: Comic Sans MS;
 	z-index:100;
-    margin-top: 37px;
-}
-
-.student a {
-    z-index:1;
-	display : block;
-	border-radius: 10%;
+	
+	background-color: #DDDDDD;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center; 
 }
 
-#brad a{
-	background-image: url('file:///C:/Users/Brad/Desktop/ClassWebsite/library/0.jpg');
+.student:hover {
+	border: 3px solid #cc0000;
 }
-#brad a:hover {
-   background-image: url('file:///C:/Users/Brad/Desktop/ClassWebsite/library/0h.jpg');
+
+#brad.student {
+	background-image: url('library/0.jpg');
+}
+#brad.student:hover {
+   background-image: url('library/0h.jpg');
 }
