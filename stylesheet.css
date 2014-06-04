@@ -1,0 +1,37 @@
+body {
+	text-align: center;
+	background-color: #F0F060;
+}
+
+.student {
+	display: inline-block;
+	margin-left: 5px;
+	height: 200px;
+	width: 150px;
+	border-radius: 10%;
+	border: 3px solid #cc0000;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #DDDDDD;
+	color: white;
+	font-size: 24px;
+	font-family: Comic Sans MS;
+	z-index:100;
+    margin-top: 37px;
+}
+
+.student a {
+    z-index:1;
+	display : block;
+	border-radius: 10%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+#brad a{
+	background-image: url('file:///C:/Users/Brad/Desktop/ClassWebsite/library/0.jpg');
+}
+#brad a:hover {
+   background-image: url('file:///C:/Users/Brad/Desktop/ClassWebsite/library/0h.jpg');
+}
